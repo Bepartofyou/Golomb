@@ -1,0 +1,10 @@
+version "0.0.0"
+package "Golomb"
+purpose "Golomb algorithm learning and implementation.
+
+By Bepartofyou <309554135@qq.com>"
+
+# Options
+option "algorithm" a "the Golomb coding algorithm" optional int default="1"
+option "parameter" p "the tunable parameter to divide an input value for Golomb coding, when  a=1, it means Golomb-Rice parameter; when a=2, it means the level of Exponential-Golomb" required int
+option "encodenum" N "the input value to Golomb coding" required int
