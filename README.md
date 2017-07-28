@@ -38,3 +38,7 @@
                                            00000000101110000
       Exponential-Golomb decode bits of  00000000101110000 :
                                            14
+
+## Refs
+* https://github.com/brookicv/GolombCode
+* http://blog.csdn.net/brookicv/article/details/54603650
